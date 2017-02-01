@@ -46,6 +46,10 @@
 
 				<?php // comments_template(); ?>
 
+				<div class="col-sm-12 hide-resp-768">
+					<div class="col-sm-12 post-sep"></div>
+				</div>
+
 			</article>
 			<!-- /article -->
 
