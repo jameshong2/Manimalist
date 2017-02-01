@@ -211,6 +211,7 @@ input:focus {
 .addthis_toolbox {
 	padding-bottom: 30px;
 }
+.hide-resp-768 {display: block;}
 .main-bottom {
 	padding: 60px 0 10px 0; border-top: 1px #d4d4d4 solid;
 	margin-top: 20px;
@@ -220,6 +221,7 @@ input:focus {
 	}
 	.main-bottom .social-links i {
 		padding-top: 15px;
+	}
 			.main-bottom .social-links {
 				color: #;
 			}
@@ -301,6 +303,12 @@ input:focus {
     RESPONSIVE
 \*------------------------------------*/
 
+@media only screen and (max-width:1000px) {
+	.sticky-header-bg {
+		display: none !important;
+	}
+}
+
 @media only screen and (min-width:320px) {
 	.thumb-img {
 		padding: 0;
@@ -340,7 +348,7 @@ input:focus {
 
 }
 @media only screen and (min-width:768px) {
-
+	.hide-resp-768 {display: none;}
 	
 }
 @media only screen and (min-width:1000px) {

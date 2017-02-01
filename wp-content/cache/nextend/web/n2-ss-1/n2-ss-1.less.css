@@ -241,7 +241,7 @@ div#n2-ss-1.n2-ss-mobile .n2-ss-widget-display-mobile.n2-ib {
 div#n2-ss-1 .n2-ss-widget-always {
   -webkit-transform: translate3d(0,0,0);
 }
-div#n2-ss-1 .n2-ss-widget-display-hover {
+div#n2-ss-1 div.n2-ss-widget-display-hover {
   opacity: 0;
   -webkit-transition: opacity 0.4s ease;
   -moz-transition: opacity 0.4s ease;
@@ -366,7 +366,7 @@ div#n2-ss-1 .n2-ss-icon-has-hover:HOVER .n2-ss-icon-normal {
 div#n2-ss-1 .n2-ss-icon-has-hover:HOVER .n2-ss-icon-hover {
   display: inline-block;
 }
-.clear {
+.n2-clear {
   clear: both;
 }
 .n2-in-fullscreen * {
@@ -375,6 +375,10 @@ div#n2-ss-1 .n2-ss-icon-has-hover:HOVER .n2-ss-icon-hover {
 }
 .n2-in-fullscreen [data-uk-scrollspy*='uk-animation-']:not([data-uk-scrollspy*='target']) {
   opacity: 1;
+}
+.n2-ss-align {
+  position: relative;
+  z-index: 0;
 }
 div#n2-ss-1 .n2-ss-background-animation {
   position: absolute;
