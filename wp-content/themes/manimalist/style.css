@@ -98,6 +98,10 @@ a:hover,
 a:active {
 	outline: 0;
 }
+input {
+    border-radius: 0;
+    -webkit-appearance: none;
+}
 input:focus {
 	outline: 0; border:1px solid #04A4CC;
 }
