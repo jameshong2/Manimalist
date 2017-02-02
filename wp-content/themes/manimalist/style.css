@@ -245,7 +245,7 @@ input:focus {
 	}
 /* sidebar content */
 .sidebar-content {
-	border-left: 1px solid #d4d4d4; padding-left: 30px;
+	border-left: 1px solid #d4d4d4; padding-left: 15px; padding-top: 40px;
 }
 /* sidebar */
 .sidebar {
@@ -332,6 +332,7 @@ input:focus {
 	.main-bottom .social-links {
 		text-align: center;
 		padding-bottom: 50px;
+		padding-top: 40px;
 	}
 	.main-bottom .bottom-widget {
 		text-align: center;
@@ -369,6 +370,7 @@ input:focus {
 	}
 	.main-bottom .social-links {
 		text-align: right;
+		padding-top: 0;
 	}
 	.main-bottom .subscribe-form {
 		padding-bottom: 50px;
@@ -376,6 +378,7 @@ input:focus {
 	.main-bottom .bottom-widget {
 		text-align: left;
 	}
+	.sidebar-content { padding-top: 0; }
 }
 @media only screen and (min-width:1024px) {
 
